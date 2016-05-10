@@ -15,6 +15,11 @@ npm start
 open http://localhost:3000
 ```
 
+To run tests:
+```
+npm test -- --watch
+```
+
 ### Editor setup
 
 If you use Atom:
