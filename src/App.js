@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import styles from './App.scss';
+import React, { Component } from 'react'
+import './App.scss'
 
 export default class App extends Component {
-  render() {
+  render () {
     return (
       <div className="App">
         <h1>Hello, world.</h1>
       </div>
-    );
+    )
   }
 }
