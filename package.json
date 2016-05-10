@@ -4,7 +4,6 @@
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint src",
     "test": "NODE_ENV=test BABEL_DISABLE_CACHE=1 WEBPACK_RUNTIME_CONFIG=`pwd`/runtime.webpack.config ava"
   },
   "repository": {
