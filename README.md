@@ -4,6 +4,7 @@ React Starter
 Forked from [React Hot Boilerplate](https://github.com/gaearon/react-hot-boilerplate).
 
 Adds:
+* SASS styling via webpack and [sass-loader](https://github.com/jtangelder/sass-loader)
 * [AVA](https://github.com/sindresorhus/ava) + [Enzyme](http://airbnb.io/enzyme) for unit testing
 * ESLint config based on [standard](https://github.com/feross/standard) with a few tweaks
 
