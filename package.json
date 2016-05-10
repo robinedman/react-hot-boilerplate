@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src",
-    "test": "NODE_ENV=test BABEL_DISABLE_CACHE=1 ava --source src/**/*.test.js test.js test-*.js test/**/*.js **/__tests__/**/*.js **/*.test.js"
+    "test": "NODE_ENV=test BABEL_DISABLE_CACHE=1 WEBPACK_RUNTIME_CONFIG=`pwd`/runtime.webpack.config ava"
   },
   "repository": {
     "type": "git",
