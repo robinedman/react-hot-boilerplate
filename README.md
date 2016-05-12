@@ -35,8 +35,8 @@ apm install nuclide
 apm install language-javascript-jsx
 ```
 
-Open Atom. Select "Atom --> Install shell commands" from the menu at the top of the screen. This way you'll be able to run...
+Open Atom. Select "Atom --> Install shell commands" from the menu at the top of the screen. In your terminal, go to the directory of your project. Run:
 ```
 atom .
 ```
-... inside your project directory to open up Atom.
+This will open the project in Atom. Very convenient.
